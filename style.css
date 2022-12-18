@@ -1,0 +1,110 @@
+body{
+    background-color: antiquewhite;
+}
+html{
+    font-size: 62.5%;
+}
+h1{
+    color: black;
+    font-size: 5.5rem;
+    text-align: center;
+    text-align: right;
+    text-align: left;
+    
+}
+p{
+    font-size: 1.7rem;
+    text-align: justify;
+}
+.left{
+    width: 300px;
+    /* height: 300px; */
+    border: 2px solid black;
+    /* padding: 30px; */
+    /* padding-top: 300px; */
+    /* padding-left: 300px; */
+    /* padding-right: 300px; */
+    /* padding-bottom: 300px; */
+    /* from all side */
+    /* padding: 89px; */
+    /* clockwise direction */
+    /* padding: 100px 40px 60px 80px; */
+    /* padding: 20px 200px 350px; */
+    /* padding: 100px 400px; */
+    /* margins */
+    /* margin: 200px;
+    margin-top: 300px; */
+    /* margin-left: 300px; */
+    /* margin-right: 300px; */
+    /* margin: 500px 600px; */
+    margin: 0 auto;
+    /* float: right; */
+
+    
+}
+.left img{
+    width: 100%;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    /* border-width: 20px;
+    border-color: blueviolet;
+    border-style: solid; */
+    border: 10px solid red;
+    /* border: 10px dotted red;
+    border: 10px dashed red; */
+    border-radius: 30px;
+
+}
+h1{
+    background-color: rgb(0, 0, 0);
+    color: red;
+    /* display: inline; */
+    /* display: inline-block; */
+    /* padding: 20px; */
+    width: 700px;
+    text-align: center;
+}
+a{
+    font-size: 2.5rem;
+    background-color: black;
+    color: aqua;
+}
+.container{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+
+}
+.container .box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid black; */
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 10%;
+    border-bottom: 1px solid rgb(94, 94, 94);
+}
+
+.header .box1 img {
+    padding-right: 45px;
+}
+
+.header .box1 b {
+    padding: 0 15px;
+    font-size: 2rem;
+}
+
+.header .box2 a {
+    font-size: 2.2rem;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+}
+
+.header .box2 a:first-child {
+    border-right: 2px solid black;
+}
+
+.header .box2 a:nth-child(2) {
+    border-right: 1px solid black;
+
+}
+
+.case-studies {
+    background-color: rgba(33, 1, 82, 0.798);
+    padding: 40px 12%;
+}
+
+.case-studies .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: 2rem;
+}
+
+.case-studies .container .box img {
+    width: 100%;
+}
+
+.case-studies h1 {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.case-studies h2 {
+    color: white;
+    font-size: 2rem;
+}
+
+.case-studies .container {
+    margin: 50px 0;
+    /* background-color: red; */
+}
+
+.case-studies .container .box {
+    background-color: white;
+    padding-bottom: 60px;
+}
+
+.case-studies .container .box h2 {
+    color: black;
+    padding: 15px 0;
+    margin-left: 10px;
+}
+
+.case-studies .container .box p {
+    color: black;
+    padding: 15px 0;
+    font-size: 1.8rem;
+    margin-left: 10px;
+
+}
